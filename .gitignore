@@ -1,4 +1,11 @@
 .build/
 *.xcodeproj/
+!TinyYAML.xcodeproj/
+!TinyYAML.xcodeproj/project.pbxproj
+!TinyYAML.xcodeproj/project.xcworkspace/
+!TinyYAML.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+!TinyYAML.xcodeproj/xcshareddata/
+!TinyYAML.xcodeproj/xcshareddata/xcschemes/
+!TinyYAML.xcodeproj/xcshareddata/xcschemes/TinyYAML.xcscheme
 DerivedData/
 .DS_Store

@@ -78,3 +78,9 @@ targets:
         product: TinyKit
       - package: Yams
         product: Yams
+
+schemes:
+  TinyYAML:
+    build:
+      targets:
+        TinyYAML: all

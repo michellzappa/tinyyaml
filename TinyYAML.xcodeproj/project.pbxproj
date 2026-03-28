@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3E4452596A0AEEBF4F1720 /* TinyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA8D15F320BE0AF324CC41D /* TinyKit */; };
+		337935160CE5C623B2378FFF /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B0AD56F0E5D4D71B1178D /* AppState.swift */; };
+		388071396CD9058A91CEE8A8 /* TinyYAMLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2868F5330990E1B04B997 /* TinyYAMLApp.swift */; };
+		4EC08AC606DB0520E5FEA9BA /* YAMLTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFDA7DE7977B432D48A280A /* YAMLTreeView.swift */; };
+		68BE8A570A2DD4FCEE73BD36 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 337AFEA64DE967445C35EC7B /* Yams */; };
+		C74CB58CD571D4E105B5A249 /* YAMLHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563502E56562EABD9B999737 /* YAMLHighlighter.swift */; };
+		DC6653F50674BF9106336D49 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 4699094B035819C91CB6ADA8 /* AppIcon.icon */; };
+		E1C3E6E27FDA0F8C1594159D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B633D450FBF17EC327DAEC8 /* Assets.xcassets */; };
+		F6CEBF337ABB4482B55FAB23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF90C2269DE100B5E2783D /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B633D450FBF17EC327DAEC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CFF90C2269DE100B5E2783D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FD7EA7EDD7A4940EB80008B /* TinyKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TinyKit; path = Packages/TinyKit; sourceTree = SOURCE_ROOT; };
+		41F2868F5330990E1B04B997 /* TinyYAMLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyYAMLApp.swift; sourceTree = "<group>"; };
+		4699094B035819C91CB6ADA8 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		563502E56562EABD9B999737 /* YAMLHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAMLHighlighter.swift; sourceTree = "<group>"; };
+		7E3B0AD56F0E5D4D71B1178D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9CFDA7DE7977B432D48A280A /* YAMLTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAMLTreeView.swift; sourceTree = "<group>"; };
+		AB1BECE8B9DB7B9482E1389E /* TinyYAML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyYAML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF0B024FBD8ECD2C1EE6AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12CF786F88E82F5ACAAB490B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E4452596A0AEEBF4F1720 /* TinyKit in Frameworks */,
+				68BE8A570A2DD4FCEE73BD36 /* Yams in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37C811FC04533D974821DE34 = {
+			isa = PBXGroup;
+			children = (
+				4CEA670A3BAAFC0C346C97E6 /* Packages */,
+				EBB40C9B77813EAB6496A888 /* Resources */,
+				A358F6315D45EA2FC410ADA5 /* TinyYAML */,
+				A69FC5657338567232A54B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CEA670A3BAAFC0C346C97E6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1FD7EA7EDD7A4940EB80008B /* TinyKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		A358F6315D45EA2FC410ADA5 /* TinyYAML */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B0AD56F0E5D4D71B1178D /* AppState.swift */,
+				0CFF90C2269DE100B5E2783D /* ContentView.swift */,
+				DFF0B024FBD8ECD2C1EE6AFD /* Info.plist */,
+				41F2868F5330990E1B04B997 /* TinyYAMLApp.swift */,
+				563502E56562EABD9B999737 /* YAMLHighlighter.swift */,
+				9CFDA7DE7977B432D48A280A /* YAMLTreeView.swift */,
+			);
+			name = TinyYAML;
+			path = Sources/TinyYAML;
+			sourceTree = "<group>";
+		};
+		A69FC5657338567232A54B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1BECE8B9DB7B9482E1389E /* TinyYAML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB40C9B77813EAB6496A888 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4699094B035819C91CB6ADA8 /* AppIcon.icon */,
+				0B633D450FBF17EC327DAEC8 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = Sources/TinyYAML/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4663B74B7685C595F4F85421 /* TinyYAML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3221A605C804CBC82EA19838 /* Build configuration list for PBXNativeTarget "TinyYAML" */;
+			buildPhases = (
+				AD8F3141211F60BD1E4B1DF9 /* Sources */,
+				DA0FFEB13F08CB166F237E4B /* Resources */,
+				12CF786F88E82F5ACAAB490B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyYAML;
+			packageProductDependencies = (
+				4CA8D15F320BE0AF324CC41D /* TinyKit */,
+				337AFEA64DE967445C35EC7B /* Yams */,
+			);
+			productName = TinyYAML;
+			productReference = AB1BECE8B9DB7B9482E1389E /* TinyYAML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605A4DE4C916167C3B55C19D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4663B74B7685C595F4F85421 = {
+						DevelopmentTeam = 992N457T8D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87580230C03AFB53F25DD4C8 /* Build configuration list for PBXProject "TinyYAML" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 37C811FC04533D974821DE34;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EA9D2B394281AD3060FB3A88 /* XCRemoteSwiftPackageReference "Yams" */,
+				40AFD2C062D45B24915BFB94 /* XCLocalSwiftPackageReference "Packages/TinyKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A69FC5657338567232A54B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4663B74B7685C595F4F85421 /* TinyYAML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA0FFEB13F08CB166F237E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6653F50674BF9106336D49 /* AppIcon.icon in Resources */,
+				E1C3E6E27FDA0F8C1594159D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8F3141211F60BD1E4B1DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337935160CE5C623B2378FFF /* AppState.swift in Sources */,
+				F6CEBF337ABB4482B55FAB23 /* ContentView.swift in Sources */,
+				388071396CD9058A91CEE8A8 /* TinyYAMLApp.swift in Sources */,
+				C74CB58CD571D4E105B5A249 /* YAMLHighlighter.swift in Sources */,
+				4EC08AC606DB0520E5FEA9BA /* YAMLTreeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CA7ACE265868B73B9CFC64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		49BC3381571306B985EF3D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TinyYAML.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 992N457T8D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/TinyYAML/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinyyaml.app;
+				PRODUCT_NAME = TinyYAML;
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		49DD3E822E74826EF6EADFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		98DBEED8339AFF899A956DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TinyYAML.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 992N457T8D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/TinyYAML/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinyyaml.app;
+				PRODUCT_NAME = TinyYAML;
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3221A605C804CBC82EA19838 /* Build configuration list for PBXNativeTarget "TinyYAML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BC3381571306B985EF3D5D /* Debug */,
+				98DBEED8339AFF899A956DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87580230C03AFB53F25DD4C8 /* Build configuration list for PBXProject "TinyYAML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DD3E822E74826EF6EADFED /* Debug */,
+				2CA7ACE265868B73B9CFC64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		40AFD2C062D45B24915BFB94 /* XCLocalSwiftPackageReference "Packages/TinyKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/TinyKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA9D2B394281AD3060FB3A88 /* XCRemoteSwiftPackageReference "Yams" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpsim/Yams.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		337AFEA64DE967445C35EC7B /* Yams */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA9D2B394281AD3060FB3A88 /* XCRemoteSwiftPackageReference "Yams" */;
+			productName = Yams;
+		};
+		4CA8D15F320BE0AF324CC41D /* TinyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TinyKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 605A4DE4C916167C3B55C19D /* Project object */;
+}
