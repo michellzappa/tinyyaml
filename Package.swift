@@ -5,7 +5,7 @@ let package = Package(
     name: "TinyYAML",
     platforms: [.macOS(.v26)],
     dependencies: [
-        .package(path: "../Packages/TinyKit"),
+        .package(path: "Packages/TinyKit"),
         .package(url: "https://github.com/jpsim/Yams.git", from: "5.0.0"),
     ],
     targets: [
